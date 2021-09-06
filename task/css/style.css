@@ -1,0 +1,136 @@
+body{
+    font-family: 'Kaisei HarunoUmi';
+    font-weight: 300; 
+}
+
+
+
+.navbar{
+    box-shadow: 0 50px 100px rgba(8, 8, 124, 0.781) ;
+}
+.nav-link{
+font-size: 1.3rem;font-weight: 500;
+margin-left: 15px;
+
+}
+
+
+
+header{
+    
+    min-height: 100vh;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699))
+    ,url(../images/background\ new.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .container h2{
+         
+    margin-top: 60px;
+    text-align: center;
+   
+ }
+ 
+ 
+ .telescope img{
+     margin-top: 40px;
+
+    width: 100%;
+    margin-bottom: 15px;
+    }
+    .telescope h3{
+        margin-bottom: 15px;
+        
+    }
+    .telescope-info{
+        display: flex;
+       margin-bottom: 10px;
+    }
+    .telescope-info i{
+        color: rgb(27, 8, 189);
+        margin-right: 15px;
+    }
+    .contacts{
+       
+        min-height: 100vh;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699))
+    ,url(../images/background\ new.jpg);
+    background-position: center;
+    background-size:contain;
+    }
+    .contacts h2{
+        color: white;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .row-2{
+        text-align: center;
+        color: white;
+        text-shadow: silver;
+        
+    }
+    .row-select{
+        text-align: center;
+        margin-left: 170px;
+
+    }
+    .row-texterea{
+        text-align: center;
+        margin-left: 170px;
+    }
+    
+    label{ 
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    input[type=text],[type=email],select,textarea{ margin-left: 190px;
+        width: 100%;
+        padding: 7px;
+        border: solid 2px #ccc;
+        border-radius: 9px;
+        margin-bottom: 15px;
+       
+    
+    }
+    input[type=checkbox]{
+        margin-bottom: 15px;
+        margin-left: 190px;
+    
+    }
+    button{
+    
+    
+        padding: 12px 30px;
+        border: solid 2px black;
+        border-radius: 15px;
+        background-color: white;
+        color: black;
+    }
+    button:hover{
+        background-color: transparent;
+        color: white;
+    }
+
+    .features-text{
+        width: 60%;
+        margin: 0px auto 20px auto;
+        text-align: center;
+    }
+    .rana {
+  
+  text-align: center;
+    }
+    .rana i{
+  font-size: 50px;
+  color: darkslateblue;
+  margin-bottom: 10px;
+      
+  }
+  .rana h3{
+      margin-bottom: 10px;
+  }
+  
